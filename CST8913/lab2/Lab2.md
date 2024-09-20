@@ -40,7 +40,7 @@ After successfully deploying the app to Azure cloud we can test the app by openi
 
 # Target Architecture Diagram:
 
-\![Architecture IaaS](./architecture\_iaas.png)  
+![Architecture IaaS](./architectureiaas.png)  
 In this diagram we have the components:
 
 * Azure: this is the service that Microsoft provides us.  
@@ -68,5 +68,5 @@ We need to configure the routing between the Flask and the React app so they can
 
 # Target Architecture Diagram:
 
-\![Architecture PaaS](./architecture\_paas.png)  
+![Architecture PaaS](./architecturepaas.png)  
 Similarly to the IaaS architecture we have Azure and VNET to connect everything. But for PaaS we are not using VM to host the Flask app and the React app anymore, instead we created 2 separate App Services and deployed the Flask app and the React app to them respectively. Then due to the configuration of the VNET the browsers will be able to access the web page that we deployed.
