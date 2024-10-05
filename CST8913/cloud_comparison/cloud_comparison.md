@@ -34,6 +34,7 @@
 | 30 | A real-time communication service used for sending notifications, emails, and text messages to users and devices. | SNS | Azure Notification Hubs | Pub/Sub |
 
 1. Key similarities and differences between equivalent services from the three cloud providers.
+
 Compute services: AWS EC2, Azure VMs, and GCP Compute Engine all offer scalable virtual machines. AWS provides more instance types, Azure integrates with Hyper-V, GCP allows custom machine configurations and live VM migration.
 
 Storage services: AWS S3, Azure Blob, and GCP Cloud Storage are all scalable. AWS offers S3 Select for querying, Azure integrates with Data Lake, and GCP streamlines transitions between storage classes.
@@ -42,14 +43,15 @@ Database services: AWS RDS, Azure SQL Database, and GCP Cloud SQL all support My
 
 Kubernetes: AWS EKS, Azure AKS, and GCP GKE all manage Kubernetes clusters. AWS integrates with Fargate, Azure with Active Directory, GCP’s GKE Autopilot simplifies operations.
 
-2. Unique features or capabilities:
+1. Unique features or capabilities:
+
 AWS: There are many features like S3 Select which allows querying data within S3, and Lambda Layers to reuse code. The S3 database provides a relational database engine that's compatible with MySQL and PostgreSQL. There is also EKS for controlling container management and integration with other AWS services.
 
 Azure: Azure offers databases within Azure SQL which are designed for big workloads with scaling capabilities. With AKS Dev Spaces we have development and testing in Kubernetes environments.
 
 GCP: GCP has VM migration which allows VMs to be moved between hosts without downtime. It also offers sustained-use discounts that automatically lower costs for sustained workloads. GKE Autopilot simplifies Kubernetes operations by automating cluster management tasks and GCP is integrated with Kubernetes.
 
-3. Naming conventions:
+1. Naming conventions:
 AWS: AWS uses specific names such as EC2 (Elastic Compute Cloud) for virtual machines, S3 (Simple Storage Service) for object storage, RDS (Relational Database Service) for managed databases. 
 
 Azure: Azure has a lot of Azure in its' services name, followed by the service name that describes it such as Azure VM, Azure Vnet.
