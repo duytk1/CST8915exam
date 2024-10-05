@@ -42,7 +42,7 @@ Database services: AWS RDS, Azure SQL Database, and GCP Cloud SQL all support My
 
 Kubernetes: AWS EKS, Azure AKS, and GCP GKE all manage Kubernetes clusters. AWS integrates with Fargate, Azure with Active Directory, GCP’s GKE Autopilot simplifies operations.
 
-1. Unique features or capabilities:
+2. Unique features or capabilities:
 AWS: There are many features like S3 Select which allows querying data within S3, and Lambda Layers to reuse code. The S3 database provides a relational database engine that's compatible with MySQL and PostgreSQL. There is also EKS for controlling container management and integration with other AWS services.
 
 Azure: Azure offers databases within Azure SQL which are designed for big workloads with scaling capabilities. With AKS Dev Spaces we have development and testing in Kubernetes environments.
